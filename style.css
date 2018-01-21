@@ -1,0 +1,177 @@
+body {
+	margin: 0px auto;
+	width: 1200px;
+}
+ul {
+	list-style-type: none;
+	padding-right: 30px;
+}
+li {
+	display: inline-block;
+}
+li a {
+	text-decoration: none;
+	float: left;
+	padding-right: 20px;
+}
+#menu a {
+	color: #5A5A5A
+}
+
+#itemRight {
+	float: right;
+}
+
+#banner {
+	background: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+	color: white;
+	width: 100%;
+	height: 450px;
+	background-size: 100% 100%;
+}
+#banner1 {
+	padding: 200px 0px 0px 100px;
+	font-size: 40px;
+}
+#banner2 {
+	padding: 0px 0px 0px 100px;
+	font-size: 20px;
+	font-family: 	Arial;
+}
+
+#noidung {
+	background-color: #EFEFEF;
+    display: block;
+    height: 550px;
+    overflow: hidden;
+    border-bottom: 1px solid #e1e1e1;
+}
+#noidung1 {
+	padding-left: 30px;
+}
+
+
+.imgdiv {
+	float: left;
+	height: 400px;
+	padding-left: 30px;
+}
+
+#noidung2 img {
+	display: block;
+	padding-top: 30px;
+
+	
+}
+
+#noidung2 {
+	width: 1200px;
+	text-align: center;
+}
+#footer {
+	clear: left;
+	width: 1200px;
+	background-color: #f7f7f7;
+	overflow: hidden;
+}
+#footer1 {
+	width: 330px;
+	float:left;
+	text-align: justify;
+
+}
+#footer2 {
+	width: 330px;
+	float: left;
+	text-align: justify;
+	margin: 0px 70px;
+}
+#footer3 {
+	width: 330px;
+	float: left;
+	text-align: justify;
+}
+#footer1 p a {
+	;
+	color: #10b5fe
+}
+#footer2 p a{
+	;
+	color: #10b5fe
+}
+#footer3 p a {
+	;
+	color: #10b5fe
+}
+#padfooter {
+	padding: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	* {box-sizing: border-box;}
+	body {width: 100%}
+	#menu { background-color: #556270; }
+	#menu a { padding: 40px 25px  ;
+			color: white;}
+	#menu ul {margin: auto}
+	#banner {
+			background: none; );
+			color: black;
+			width: 100%;
+			height: auto;}
+	#banner1 {padding: 15px 0px 0px 30px;}
+	#banner2 {padding: 15px 0px 15px 30px;}
+	#noidung {width: auto; height: auto; background-color: white; border-top: 1px solid #e1e1e1; border-bottom: none;}
+	#noidung1 {font-size: 25px;}
+	#noidung1 p {font-size: 20px ; padding-top: 0px }
+	#noidung2 {width: auto;}
+	#noidung2 img {display: inline;padding-right: auto; max-width: 100%}
+	.imgdiv {height: auto;}
+	#footer {width: auto; background-color: white;}
+	
+	#footer1 { width: 100%; margin-top: 40px;}
+	#footer2 { width: 100%; margin: 40px 0px;}
+	#footer3 { width: 100%;}
+}
+
+@media only screen and (max-width: 767px) {
+	* {box-sizing: border-box;}
+	body {width: 100%; font-size: 10px}
+	#menu a { 
+			color: white; }
+
+	#menu ul {
+		text-align: center; background-color: #556270;margin: auto; padding-top: 10px; padding-bottom: 10px;
+	}
+	
+	#itemRight {float: none; display: inline;}
+	#menu li {
+		display: inline-block; ;
+	}
+	#banner {
+			background: none;
+			color: black;
+			width: 100%;
+			height: auto;}
+	#banner1 {padding: 15px 0px 0px 30px; }
+	#banner2 {padding: 15px 0px 15px 30px;}
+	#noidung {width: auto; height: auto; background-color: white;  border-bottom: none;}
+	#noidung1 {font-size: 25px; }
+	#noidung1 p {font-size: 20px ; padding-top: 0px }
+	#noidung2 {width: auto; padding-right: 30px;}
+	#noidung2 img {display: block;padding: auto; max-width: 100%}
+	
+	.imgdiv {float: left;height: auto;padding: auto; }
+	#footer {width: auto; background-color: white;}
+	
+	#footer1 { width: 100%; margin-top: 40px;}
+	#footer2 { width: 100%; margin: 40px 0px;}
+	#footer3 { width: 100%;}
+	#footer1 strong {font-size: 30px}
+	#footer2 strong {font-size: 30px}
+	#footer3 strong {font-size: 30px}
+	#padfooter p a {color: black;}
+}
